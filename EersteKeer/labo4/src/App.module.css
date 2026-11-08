@@ -1,0 +1,21 @@
+.Menu {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form input, textarea {
+    margin-left: 1em;
+}
+
+.form button {
+    height: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}

@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.squareList {
+    display: flex;
+}
+
+.square > p {
+    font-size: 3em;
+}
+
+.square {
+    height: 6em;
+    width: 6em;
+    text-align: center;
+    align-content: center;
+    background-color: green;
+}
+
+.squareList > .square:first-child {
+    background-color: red;
+}
+
+.squareList > .square:last-child {
+    background-color: pink;
+}

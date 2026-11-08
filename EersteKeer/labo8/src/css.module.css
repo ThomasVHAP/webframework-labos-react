@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.header > :global(.active) {
+    color: red;
+}
+
+.square {
+    margin: 10px;
+
+    width: 100px;
+    height: 100px;
+}
